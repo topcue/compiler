@@ -1,0 +1,23 @@
+;--------------------------------------------------------------------
+; Sample description of a DFA table
+; This is comment line begining with ';' and it is ignored!
+;--------------------------------------------------------------------
+n_states=		5
+n_symbols=	4
+;--------------------------------------------------------------------
+; Final states is a list of final states -- a string of final states
+; Start state can be any state in the table -- default: 0
+start_state=	0
+final_states=	4
+;--------------------------------------------------------------------
+; DFA table for "a+b+c+d"
+; NFA states can be described by a string of next states
+; State number 0, 1, 2, ... is described before ':'
+;--------------------------------------------------------------------
+0: 1 -1 -1 -1
+1: 1 2 -1 -1
+2: -1 2 3 -1
+3: -1 -1 3 4
+4: -1 -1 -1 -1
+;--------------------------------------------------------------------
+; End of state tranisition table
