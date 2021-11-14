@@ -1,4 +1,4 @@
-# Some Codes for Compiler (Temporary Repository)
+# Some Codes for Compiler Course (Temporary Repository)
 
 ## Index
 
